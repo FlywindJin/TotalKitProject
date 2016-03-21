@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		21B0E96C1C9FCC1000EF411B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E96B1C9FCC1000EF411B /* FirstViewController.m */; };
+		21B0E9721C9FCEF500EF411B /* KJNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E9711C9FCEF500EF411B /* KJNavigationDelegate.m */; };
+		21B0E9751C9FEB4300EF411B /* KJTransitioningAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E9741C9FEB4300EF411B /* KJTransitioningAnimator.m */; };
 		21FCC1241C9BF233006CECA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCC1231C9BF233006CECA9 /* main.m */; };
 		21FCC1271C9BF233006CECA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCC1261C9BF233006CECA9 /* AppDelegate.m */; };
 		21FCC12A1C9BF233006CECA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCC1291C9BF233006CECA9 /* ViewController.m */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21B0E96A1C9FCC1000EF411B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		21B0E96B1C9FCC1000EF411B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		21B0E9701C9FCEF500EF411B /* KJNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJNavigationDelegate.h; sourceTree = "<group>"; };
+		21B0E9711C9FCEF500EF411B /* KJNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJNavigationDelegate.m; sourceTree = "<group>"; };
+		21B0E9731C9FEB4300EF411B /* KJTransitioningAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTransitioningAnimator.h; sourceTree = "<group>"; };
+		21B0E9741C9FEB4300EF411B /* KJTransitioningAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTransitioningAnimator.m; sourceTree = "<group>"; };
 		21FCC11F1C9BF233006CECA9 /* TotalKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotalKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FCC1231C9BF233006CECA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21FCC1251C9BF233006CECA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +119,12 @@
 				21FCC1301C9BF233006CECA9 /* LaunchScreen.storyboard */,
 				21FCC1331C9BF233006CECA9 /* Info.plist */,
 				21FCC1221C9BF233006CECA9 /* Supporting Files */,
+				21B0E96A1C9FCC1000EF411B /* FirstViewController.h */,
+				21B0E96B1C9FCC1000EF411B /* FirstViewController.m */,
+				21B0E9701C9FCEF500EF411B /* KJNavigationDelegate.h */,
+				21B0E9711C9FCEF500EF411B /* KJNavigationDelegate.m */,
+				21B0E9731C9FEB4300EF411B /* KJTransitioningAnimator.h */,
+				21B0E9741C9FEB4300EF411B /* KJTransitioningAnimator.m */,
 			);
 			path = TotalKit;
 			sourceTree = "<group>";
@@ -276,6 +291,9 @@
 				21FCC12A1C9BF233006CECA9 /* ViewController.m in Sources */,
 				21FCC1271C9BF233006CECA9 /* AppDelegate.m in Sources */,
 				21FCC1241C9BF233006CECA9 /* main.m in Sources */,
+				21B0E96C1C9FCC1000EF411B /* FirstViewController.m in Sources */,
+				21B0E9721C9FCEF500EF411B /* KJNavigationDelegate.m in Sources */,
+				21B0E9751C9FEB4300EF411B /* KJTransitioningAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +519,7 @@
 				21FCC14E1C9BF233006CECA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21FCC14F1C9BF233006CECA9 /* Build configuration list for PBXNativeTarget "TotalKitTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +528,7 @@
 				21FCC1511C9BF233006CECA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21FCC1521C9BF233006CECA9 /* Build configuration list for PBXNativeTarget "TotalKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +537,7 @@
 				21FCC1541C9BF233006CECA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
