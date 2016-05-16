@@ -13,7 +13,13 @@
 @end
 
 @implementation ViewController
-
+- (IBAction)threadCreateAction:(id)sender {
+    NSTimer *timer = [NSTimer timerWithTimeInterval:0.5 target:self selector:@selector(repeatAction:) userInfo:@{@"key":@"hello wolld"} repeats:YES];
+    [[NSRunLoop currentRunLoop]addTimer:timer forMode:NSRunLoopCommonModes];
+}
+- (void)repeatAction:(NSTimer*)timer{
+    NSLog(@"%@",timer.userInfo[@"key"]);
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.

@@ -22,7 +22,7 @@
                                 <rect key="frame" x="179" y="309" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="oBI-AU-JyL" kind="presentation" id="Nnl-PE-9FH"/>
+                                    <action selector="threadCreateAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bTQ-PW-NhK"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21B0E96C1C9FCC1000EF411B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E96B1C9FCC1000EF411B /* FirstViewController.m */; };
-		21B0E9721C9FCEF500EF411B /* KJNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E9711C9FCEF500EF411B /* KJNavigationDelegate.m */; };
-		21B0E9751C9FEB4300EF411B /* KJTransitioningAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B0E9741C9FEB4300EF411B /* KJTransitioningAnimator.m */; };
+		2193C2931CA6943500EC3EED /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193C28E1CA6943500EC3EED /* FirstViewController.m */; };
+		2193C2941CA6943500EC3EED /* KJNavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193C2901CA6943500EC3EED /* KJNavigationDelegate.m */; };
+		2193C2951CA6943500EC3EED /* KJTransitioningAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2193C2921CA6943500EC3EED /* KJTransitioningAnimator.m */; };
+		21A4D2E61CE9A5CD000CDF4E /* UIBezierPath+RadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 21A4D2E51CE9A5CD000CDF4E /* UIBezierPath+RadarChart.m */; };
 		21FCC1241C9BF233006CECA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCC1231C9BF233006CECA9 /* main.m */; };
 		21FCC1271C9BF233006CECA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCC1261C9BF233006CECA9 /* AppDelegate.m */; };
 		21FCC12A1C9BF233006CECA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FCC1291C9BF233006CECA9 /* ViewController.m */; };
@@ -38,12 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		21B0E96A1C9FCC1000EF411B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		21B0E96B1C9FCC1000EF411B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		21B0E9701C9FCEF500EF411B /* KJNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJNavigationDelegate.h; sourceTree = "<group>"; };
-		21B0E9711C9FCEF500EF411B /* KJNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJNavigationDelegate.m; sourceTree = "<group>"; };
-		21B0E9731C9FEB4300EF411B /* KJTransitioningAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTransitioningAnimator.h; sourceTree = "<group>"; };
-		21B0E9741C9FEB4300EF411B /* KJTransitioningAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTransitioningAnimator.m; sourceTree = "<group>"; };
+		2193C28D1CA6943500EC3EED /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2193C28E1CA6943500EC3EED /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2193C28F1CA6943500EC3EED /* KJNavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJNavigationDelegate.h; sourceTree = "<group>"; };
+		2193C2901CA6943500EC3EED /* KJNavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJNavigationDelegate.m; sourceTree = "<group>"; };
+		2193C2911CA6943500EC3EED /* KJTransitioningAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KJTransitioningAnimator.h; sourceTree = "<group>"; };
+		2193C2921CA6943500EC3EED /* KJTransitioningAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KJTransitioningAnimator.m; sourceTree = "<group>"; };
+		21A4D2E41CE9A5CD000CDF4E /* UIBezierPath+RadarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+RadarChart.h"; sourceTree = "<group>"; };
+		21A4D2E51CE9A5CD000CDF4E /* UIBezierPath+RadarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+RadarChart.m"; sourceTree = "<group>"; };
 		21FCC11F1C9BF233006CECA9 /* TotalKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TotalKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21FCC1231C9BF233006CECA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21FCC1251C9BF233006CECA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +90,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2193C28C1CA6943500EC3EED /* VC之间切换页面动画 */ = {
+			isa = PBXGroup;
+			children = (
+				2193C28D1CA6943500EC3EED /* FirstViewController.h */,
+				2193C28E1CA6943500EC3EED /* FirstViewController.m */,
+				2193C28F1CA6943500EC3EED /* KJNavigationDelegate.h */,
+				2193C2901CA6943500EC3EED /* KJNavigationDelegate.m */,
+				2193C2911CA6943500EC3EED /* KJTransitioningAnimator.h */,
+				2193C2921CA6943500EC3EED /* KJTransitioningAnimator.m */,
+			);
+			path = "VC之间切换页面动画";
+			sourceTree = "<group>";
+		};
+		21A4D2E31CE9A597000CDF4E /* IOS雷达图绘制 */ = {
+			isa = PBXGroup;
+			children = (
+				21A4D2E41CE9A5CD000CDF4E /* UIBezierPath+RadarChart.h */,
+				21A4D2E51CE9A5CD000CDF4E /* UIBezierPath+RadarChart.m */,
+			);
+			path = "IOS雷达图绘制";
+			sourceTree = "<group>";
+		};
 		21FCC1161C9BF233006CECA9 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +135,7 @@
 		21FCC1211C9BF233006CECA9 /* TotalKit */ = {
 			isa = PBXGroup;
 			children = (
+				21A4D2E31CE9A597000CDF4E /* IOS雷达图绘制 */,
 				21FCC1251C9BF233006CECA9 /* AppDelegate.h */,
 				21FCC1261C9BF233006CECA9 /* AppDelegate.m */,
 				21FCC1281C9BF233006CECA9 /* ViewController.h */,
@@ -118,13 +144,8 @@
 				21FCC12E1C9BF233006CECA9 /* Assets.xcassets */,
 				21FCC1301C9BF233006CECA9 /* LaunchScreen.storyboard */,
 				21FCC1331C9BF233006CECA9 /* Info.plist */,
+				2193C28C1CA6943500EC3EED /* VC之间切换页面动画 */,
 				21FCC1221C9BF233006CECA9 /* Supporting Files */,
-				21B0E96A1C9FCC1000EF411B /* FirstViewController.h */,
-				21B0E96B1C9FCC1000EF411B /* FirstViewController.m */,
-				21B0E9701C9FCEF500EF411B /* KJNavigationDelegate.h */,
-				21B0E9711C9FCEF500EF411B /* KJNavigationDelegate.m */,
-				21B0E9731C9FEB4300EF411B /* KJTransitioningAnimator.h */,
-				21B0E9741C9FEB4300EF411B /* KJTransitioningAnimator.m */,
 			);
 			path = TotalKit;
 			sourceTree = "<group>";
@@ -289,11 +310,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				21FCC12A1C9BF233006CECA9 /* ViewController.m in Sources */,
+				2193C2941CA6943500EC3EED /* KJNavigationDelegate.m in Sources */,
 				21FCC1271C9BF233006CECA9 /* AppDelegate.m in Sources */,
+				2193C2951CA6943500EC3EED /* KJTransitioningAnimator.m in Sources */,
+				2193C2931CA6943500EC3EED /* FirstViewController.m in Sources */,
+				21A4D2E61CE9A5CD000CDF4E /* UIBezierPath+RadarChart.m in Sources */,
 				21FCC1241C9BF233006CECA9 /* main.m in Sources */,
-				21B0E96C1C9FCC1000EF411B /* FirstViewController.m in Sources */,
-				21B0E9721C9FCEF500EF411B /* KJNavigationDelegate.m in Sources */,
-				21B0E9751C9FEB4300EF411B /* KJTransitioningAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
